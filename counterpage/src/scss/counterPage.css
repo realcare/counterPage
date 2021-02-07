@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+   
+}
+
+.box {
+    border: 3px solid #00274A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.number {
+    font-size: 40px;
+}
+
+.button { 
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button button{
+    width: 100px;
+    height: 50px;
+    border: 2px solid 00274A;
+    background-color: #ffffff;
+    font-size: 30px;
+}
+
+.button button:focus {
+    outline: none;
+}
+
+.button button:active {
+   border: 2px solid red;
+}
